@@ -1,10 +1,14 @@
-import React from 'react';
+And update App.jsx
+
+
+import React from "react";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
+    <div style={{ padding: "2rem", fontFamily: "sans-serif" }}>
       <h1>GitHub User Search</h1>
-      <p>This is the basic setup. Start searching users!</p>
+      <Search />
     </div>
   );
 }
